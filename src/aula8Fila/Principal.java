@@ -38,5 +38,8 @@ public class Principal {
 		System.out.println("Início: " + fila.inicio());
 		
 	}
+	
+	//como implementar uma fila de prioridade? O no deverá ter o atributo prioridade
+	//o metodo enfileirar será diferente
 
 }
