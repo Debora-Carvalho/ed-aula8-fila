@@ -32,8 +32,11 @@ public class Fila {
 			return null;
 		} 
 		Object info = inicio.info;
-		fim = inicio.prox;
+		inicio = inicio.prox;
 		tamanho--;
+		if(tamanho == 0) {
+			fim = null;
+		}
 		return info;
 	}
 	
