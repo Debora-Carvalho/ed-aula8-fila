@@ -5,7 +5,7 @@ public class Fila {
 	private No inicio;
 	private No fim;
 	
-	public boolean estaVazia() {    //esse atributo nao precisa receber nada, pois recebe o tamanho da propria classe
+	public boolean estaVazia() {    //esse método nao precisa receber nada, pois recebe o tamanho da propria classe
 		return tamanho == 0;
 	}
 	
